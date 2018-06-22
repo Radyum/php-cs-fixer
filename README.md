@@ -1,7 +1,7 @@
 # [PHP Coding Standards Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) with [Docker](https://github.com/docker/docker )
 
 ```
-alias cs-fixer="docker run --rm -it -v \`pwd\`:/src registry.aptus.ninja/web-ci/cs-fixer"
+alias cs-fixer="docker run --rm -it -v \`pwd\`:/src radyum/php-cs-fixer"
 ```
 
 ## Usage
